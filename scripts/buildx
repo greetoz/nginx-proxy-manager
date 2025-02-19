@@ -27,6 +27,7 @@ docker buildx build \
 	--progress plain \
 	--pull \
 	-f docker/Dockerfile \
+	--output type=docker \
 	$@ \
 	.
 
